@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://salmon-coast-0caff3a1e.1.azurestaticapps.net/login",
+        target: "https://medicarefraudservice-fahvamaaftc5e9f2.centralindia-01.azurewebsites.net",
         changeOrigin: true,
       },
     },
