@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: process.env.VITE_API_URL,
+        target: "https://salmon-coast-0caff3a1e.1.azurestaticapps.net/login",
         changeOrigin: true,
       },
     },
