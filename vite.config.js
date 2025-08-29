@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://medicarefraudservice-fahvamaaftc5e9f2.centralindia-01.azurewebsites.net",
+        target: process.env.VITE_API_URL,
         changeOrigin: true,
       },
     },
